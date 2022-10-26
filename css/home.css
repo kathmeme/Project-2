@@ -1,12 +1,54 @@
 .fresh {
-    font-family: cloisterblack;
+  font-family: cloisterblack;
 }
 body {
-    background-color: #d4d4d4;
-  }
-  .about {
+  background-color: #d4d4d4;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10%;
+  font-family: cloisterblack;
+  font-size: 15px;
+  padding-left: 2%;
+}
 
+.about > div {
+  width: 60%;
+}
+
+.restaurantpic img {
+  width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    min-height: 8vh;
+    position: relative;
   }
-  .restaurantpic {
-    
+  .flex {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .flex > div {
+    width: 90%;
+  }
+
+  .fresh {
+    font-size: small;
+    width: 95vw;
+    text-align: center;
+  }
+
+  .about {
+  }
+  .restaurantpic img {
+    width: 400px;
+  }
+}
+.col-md-6 col-12 order-1 order-md-2 {
+    width: 600px;
+}
