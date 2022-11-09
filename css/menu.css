@@ -1,0 +1,126 @@
+a {
+    margin: 20px;
+    -webkit-transition: color 1s;
+    /* For Safari 3.0 to 6.0 */
+    transition: color 1s;
+    /* For modern browsers */
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+
+.fresh {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #d4d4d4;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+.menu {
+    border: 3px solid #53131e;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    background: #53131e;
+    padding: 0 0.4rem;
+    color: #fffacc
+}
+
+.about>div {
+    width: 60%;
+}
+
+.restaurantpic img {
+    width: 800px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        min-height: 8vh;
+        position: relative;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex>div {
+        width: 90%;
+    }
+
+    .fresh {
+        font-size: small;
+        width: 95vw;
+        text-align: center;
+    }
+
+    .restaurantpic img {
+        width: 400px;
+    }
+}
+
+.col-md-6 col-12 order-1 order-md-2 {
+    width: 600px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Amatic SC", sans-serif
+}
+
+
+
+.leftdiv {
+    float: left;
+    background-color: rgb(22, 21, 21);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.middlediv {
+    float: inline-start;
+    background-color: rgb(22, 21, 21);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rightdiv {
+    float: inline-start;
+    background-color: rgb(22, 21, 21);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    padding: 1%;
+    color: #d4d4d4;
+    background-color: 009900;
+    width: 30%;
+    border: solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../pics/bg.jpg")center/cover fixed no-repeat;
+}
