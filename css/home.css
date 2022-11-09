@@ -1,26 +1,54 @@
 .fresh {
-  font-family: cloisterblack;
+  font-family: Angel Wish;
 }
 body {
   background-color: #d4d4d4;
 }
-.about {
+
+.test {
   display: flex;
   justify-content: space-around;
-  padding-top: 10%;
-  font-family: cloisterblack;
-  font-size: 15px;
-  padding-left: 2%;
 }
 
-.about > div {
-  width: 60%;
+.about {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.restaurantpic img {
-  width: 800px;
-  padding-left: 5%;
-  padding-right: 5%;
+.navbar {
+  font-family: evanescent;
+  font-size: x-large;
+}
+
+.reviews {
+  font-family: Fiendish;
+  color: maroon;
+}
+
+.reviewtext1 {
+  font-family: angel wish;
+  color: maroon;
+}
+
+.reviewpara1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.reviewtext2 {
+  font-family: angel wish;
+  color: maroon;
+}
+
+.reviewpara2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.reviewtext3 {
+  font-family: angel wish;
+  color: maroon;
+}
+
+.reviewpara3 {
+  font-family: "Times New Roman", Times, serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -33,22 +61,21 @@ body {
     align-items: center;
   }
 
-  .flex > div {
-    width: 90%;
-  }
-
   .fresh {
-    font-size: small;
-    width: 95vw;
+    font-size: large;
     text-align: center;
+    font-family: Angel wish;
   }
 
-  .about {
+  .prof1 {
+    width: 50%;
   }
-  .restaurantpic img {
-    width: 400px;
+
+  .prof2 {
+    width: 50%;
   }
-}
-.col-md-6 col-12 order-1 order-md-2 {
-    width: 600px;
+
+  .prof3 {
+    width: 50%;
+  }
 }
